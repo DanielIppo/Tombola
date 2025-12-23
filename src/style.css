@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #8B0000;
+  background-image: radial-gradient(circle, #D42426 1px, transparent 1px);
+  background-size: 30px 30px;
+  color: #fff;
+  font-family: 'Georgia', serif;
+}
+
+/* Effetto Neve Semplice */
+.snow-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+CiAgPGNpcmNsZSBjeD0iNSIgY3k9IjUiIHI9IjEiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjMiIC8+Cjwvc3ZnPg==');
+  z-index: 0;
+}
